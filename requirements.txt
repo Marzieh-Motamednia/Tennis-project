@@ -7,3 +7,4 @@ scipy
 jupyter
 notebook
 openpyxl
+pyarrow
