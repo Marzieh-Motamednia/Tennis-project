@@ -22,7 +22,7 @@ Notes: بردها احتمالاً از ستون winner در مسابقات مح
 [Q4]
 Question: What is the longest match recorded in terms of duration?
 Persian: طولانی‌ترین مسابقه ثبت‌شده از نظر مدت زمان کدام است؟
-Status: ❌
+Status: ✅
 Responsible: Sepideh
 Notes: ستون مدت زمان مسابقه و داده‌های پرت باید بررسی شوند.
 
@@ -36,7 +36,7 @@ Notes: بهتر است هم پرتکرارترین تعداد ست و هم می�
 [Q6]
 Question: Which country has produced the most successful tennis players?
 Persian: کدام کشور موفق‌ترین بازیکنان تنیس را پرورش داده است؟
-Status: ❌
+Status: ✅
 Responsible: Sepideh
 Notes: باید معیار success دقیق تعریف شود.
 
