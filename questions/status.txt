@@ -43,7 +43,7 @@ Notes: باید معیار success دقیق تعریف شود.
 [Q7]
 Question: What is the average number of aces per match?
 Persian: میانگین تعداد ace در هر مسابقه چقدر است؟
-Status: ❌
+Status: ✅
 Responsible: Sepideh
 Notes: باید مشخص شود aceهای هر دو بازیکن با هم محاسبه می‌شوند یا نه.
 
