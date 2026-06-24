@@ -85,7 +85,7 @@ Notes: احتمالاً نیاز به استخراج gameها از score هر س
 [Q13]
 Question: What is the distribution of left-handed versus right-handed players?
 Persian: توزیع بازیکنان چپ‌دست در مقایسه با راست‌دست‌ها چگونه است؟
-Status: ❌
+Status: ✅
 Responsible: Sepideh
 Notes: مقادیر hand مثل L و R و unknown باید بررسی شوند.
 
