@@ -106,7 +106,7 @@ Notes: باید مشخص شود منظور کشور بازیکنان است یا
 [Q16]
 Question: Which player has the highest winning percentage against top 10 ranked opponents?
 Persian: کدام بازیکن بیشترین درصد برد را مقابل حریفان دارای رتبه 10 برتر داشته است؟
-Status: ❌
+Status: ✅
 Responsible: Sepideh
 Notes: باید top 10 بر اساس ranking زمان مسابقه تعریف شود و حداقل تعداد بازی لحاظ شود.
 
