@@ -1,21 +1,21 @@
 [Q1]
 Question: How many tennis players are included in the dataset?
 Persian: چند بازیکن تنیس در این دیتاست وجود دارند؟
-Status: ❌
+Status: ✅
 Responsible: Marzieh
 Notes: تعداد بازیکنان یکتا باید محاسبه شود. باید مشخص شود منظور از player همه بازیکنان است یا فقط بازیکنانی که داده کامل دارند.
 
 [Q2]
 Question: What is the average height of the players?
 Persian: میانگین قد بازیکنان چقدر است؟
-Status: ❌
+Status: ✅
 Responsible: Marzieh
 Notes: باید missing valueها و واحد height بررسی شود.
 
 [Q3]
 Question: Which player has the highest number of wins?
 Persian: کدام بازیکن بیشترین تعداد برد را دارد؟
-Status: ❌
+Status: ✅
 Responsible: Marzieh
 Notes: بردها احتمالاً از ستون winner در مسابقات محاسبه می‌شوند.
 
@@ -71,14 +71,14 @@ Notes: باید height و ranking همزمان در دسترس باشند. تف�
 [Q11]
 Question: What is the average duration of matches?
 Persian: میانگین مدت زمان مسابقات چقدر است؟
-Status: ❌
+Status: ✅
 Responsible: Marzieh
 Notes: missing valueها و فرمت مدت زمان باید بررسی شوند.
 
 [Q12]
 Question: What is the average number of games per set in men's matches compared to women's matches?
 Persian: میانگین تعداد گیم در هر ست در مسابقات مردان در مقایسه با مسابقات زنان چقدر است؟
-Status: ❌
+Status: ✅
 Responsible: Marzieh
 Notes: احتمالاً نیاز به استخراج gameها از score هر ست وجود دارد.
 
@@ -113,6 +113,6 @@ Notes: باید top 10 بر اساس ranking زمان مسابقه تعریف ش
 [Q17]
 Question: What is the average number of breaks of serve per match?
 Persian: میانگین تعداد break of serve در هر مسابقه چقدر است؟
-Status: ❌
+Status: ✅
 Responsible: Marzieh
 Notes: باید مشخص شود این مقدار مستقیماً در دیتاست موجود است یا باید محاسبه شود.
