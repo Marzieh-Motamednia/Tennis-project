@@ -8,9 +8,9 @@ Responsible: [طراح سوال]
 Notes: [توضیح درباره سوال]
 --------------------
 
-[Q1]
-Question: 
-Persian: 
-Status: ❌
-Responsible: 
-Notes: 
+[Q18]
+Question: Which match was the most predictable based on votes?
+Persian: کدام مسابقه را میتوان بر اساس رای کاربران، قابل پیش بینی ترین مسابقه دانست؟
+Status: ✅
+Responsible: Sepideh
+Notes: از 2 جدول مربوط با رای ها و اطلاعات بازی استفاده میکنیم.
