@@ -29,7 +29,7 @@ Notes: ستون مدت زمان مسابقه و داده‌های پرت بای�
 [Q5]
 Question: How many sets are typically played in a tennis match?
 Persian: معمولاً در یک مسابقه تنیس چند ست بازی می‌شود؟
-Status: ❌
+Status: ✅
 Responsible: Sanaz
 Notes: بهتر است هم پرتکرارترین تعداد ست و هم میانگین بررسی شوند.
 
@@ -50,21 +50,21 @@ Notes: باید مشخص شود aceهای هر دو بازیکن با هم مح�
 [Q8]
 Question: Is there a difference in the number of double faults based on gender?
 Persian: آیا تعداد double faultها بر اساس جنسیت تفاوت دارد؟
-Status: ❌
+Status: ✅
 Responsible: Sanaz
 Notes: نیاز به تفکیک مسابقات مردان و زنان و احتمالاً آزمون آماری دارد.
 
 [Q9]
 Question: Which player has won the most tournaments in a single month?
 Persian: کدام بازیکن در یک ماه بیشترین تعداد تورنمنت را برده است؟
-Status: ❌
+Status: ✅
 Responsible: Sanaz
 Notes: نیاز به داده تاریخ و سطح tournament دارد.
 
 [Q10]
 Question: Is there a correlation between a player's height and their ranking?
 Persian: آیا بین قد بازیکن و رتبه او همبستگی وجود دارد؟
-Status: ❌
+Status: ✅
 Responsible: Sanaz
 Notes: باید height و ranking همزمان در دسترس باشند. تفسیر رتبه مهم است چون عدد کمتر رتبه بهتر است.
 
@@ -92,14 +92,14 @@ Notes: مقادیر hand مثل L و R و unknown باید بررسی شوند.
 [Q14]
 Question: What is the most common type of surface used in tournaments?
 Persian: رایج‌ترین نوع زمین مورد استفاده در تورنمنت‌ها چیست؟
-Status: ❌
+Status: ✅
 Responsible: Sanaz
 Notes: شمارش فراوانی surfaceها لازم است.
 
 [Q15]
 Question: How many distinct countries are represented in the dataset?
 Persian: چند کشور متمایز در این دیتاست نماینده دارند؟
-Status: ❌
+Status: ✅
 Responsible: Sanaz
 Notes: باید مشخص شود منظور کشور بازیکنان است یا کشور تورنمنت‌ها.
 

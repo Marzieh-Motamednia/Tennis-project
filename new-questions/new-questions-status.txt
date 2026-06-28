@@ -41,3 +41,21 @@ Persian: در market_name=full_time، آیا ضریب اولیه‌ی برنده
 Status: ✅
 Responsible: Marzieh
 Notes: برای پاسخ به این سوال از جدول odds استفاده می‌کنیم.
+
+--------------------
+
+[Q22]
+Question: Which tournament is the most competitive one ,based on the percentage of matches which finish in the final set?
+Persian:رقابتی ترین تورنومنت بر اساس درصد بازی هایی که در ست آخر تعیین تکلیف می شوند، کدام است؟
+Status: ✅
+Responsible: Sepideh
+Notes: استفاده از 2 جدول مربوط به Game و Tournament
+
+--------------------
+
+[Q23]
+Question: Which tournament had the highest upset(wonder) rate?
+Persian: (در کدام تورنومنت، درصد شگفتی سازی بیشتر بوده است؟(شگفتی سازی یعنی تیمی با رنک بدتر، پیروز شده است.
+Status: ✅
+Responsible: Sepideh
+Notes: از جداول MatchEventInfo، MatchHomeTeamInfo و MatchAwayTeamInfo استفاده می کنیم.
