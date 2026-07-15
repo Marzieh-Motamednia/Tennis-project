@@ -38,7 +38,7 @@ dist/
 
 # SQLite
 *.sqlite3
-*.db
+*.duckdb
 
 # Data files (optional, depending on your project policy)
 # data/raw/
