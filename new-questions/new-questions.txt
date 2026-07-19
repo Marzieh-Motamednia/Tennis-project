@@ -14,3 +14,30 @@ Persian: کدام مسابقه را میتوان بر اساس رای کاربر
 Status: ✅
 Responsible: Sepideh
 Notes: از 2 جدول مربوط با رای ها و اطلاعات بازی استفاده میکنیم.
+
+--------------------
+
+[Q19]
+Question: What is the average weight of the players?
+Persian: میانگین وزن بازیکنان چقدر است؟
+Status: ✅
+Responsible: Marzieh
+Notes: -
+
+--------------------
+
+[Q20]
+Question: What percentage of matches do players win when they are in their own country?
+Persian: زمانی که بازیکنان در کشور خودشان هستند، چند درصد مسابقه را برنده می‌شوند؟
+Status: ✅
+Responsible: Marzieh
+Notes: -
+
+--------------------
+
+[Q21]
+Question: In market_name=full_time, is there a significant difference between the initial odds of winners and losers?
+Persian: در market_name=full_time، آیا ضریب اولیه‌ی برنده‌ها با بازنده‌ها فرق معناداری دارد؟
+Status: ✅
+Responsible: Marzieh
+Notes: برای پاسخ به این سوال از جدول odds استفاده می‌کنیم.
