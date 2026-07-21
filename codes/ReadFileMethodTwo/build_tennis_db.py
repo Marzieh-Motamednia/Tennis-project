@@ -901,7 +901,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "--root",
         type=Path,
-        default=Path("."),
+        default=Path(".."),
         help=(
             "Root directory containing date folders. "
             "Default: current directory."
