@@ -59,3 +59,18 @@ Persian: (در کدام تورنومنت، درصد شگفتی سازی بیشت
 Status: ✅
 Responsible: Sepideh
 Notes: از جداول MatchEventInfo، MatchHomeTeamInfo و MatchAwayTeamInfo استفاده می کنیم.
+--------------------
+
+[Q24]
+Question:Do right-handed players perform better on grass courts compared to left-handed players?
+Persian:آیا برنده شدن در ست اول، احتمال برنده شدن در کل مسابقه را افزایش می‌دهد؟
+Status: ✅
+Responsible: Sanaz
+Notes: matchhome_team_score,matchaway_team_score,matchevent
+
+[Q25]
+Question:Do right-handed players perform better on grass courts compared to left-handed players?
+Persian:آیا بازیکنان راست‌دست در زمین‌های چمن نسبت به بازیکنان چپ‌دست عملکرد بهتری دارند؟
+Status: ✅
+Responsible: Sanaz
+Notes: matchhome_team,matchtournament,matchevent
