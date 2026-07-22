@@ -53,14 +53,21 @@ Notes: از جداول MatchEventInfo، MatchHomeTeamInfo و MatchAwayTeamInfo �
 
 [Q24]
 Question: Does winning the first set increase the chances of winning the entire match?
-Persian:آیا برنده شدن در ست اول، احتمال برنده شدن در کل مسابقه را افزایش می‌دهد؟
+Persian: آیا برنده شدن در ست اول، احتمال برنده شدن در کل مسابقه را افزایش می‌دهد؟
 Status: ✅
 Responsible: Sanaz
 Notes: matchhome_team_score,matchaway_team_score,matchevent
 
 [Q25]
 Question: Do right-handed players perform better on grass courts compared to left-handed players?
-Persian:آیا بازیکنان راست‌دست در زمین‌های چمن نسبت به بازیکنان چپ‌دست عملکرد بهتری دارند؟
+Persian: آیا بازیکنان راست‌دست در زمین‌های چمن نسبت به بازیکنان چپ‌دست عملکرد بهتری دارند؟
+Status: ✅
+Responsible: Sanaz
+Notes: matchhome_team,matchtournament,matchevent
+
+[Q26]
+Question: How does the average weight of winning players compare to that of losing players across different gender?
+Persian: میانگین وزن بازیکنان برنده در مقایسه با بازیکنان بازنده در جنسیت‌های مختلف چگونه است؟
 Status: ✅
 Responsible: Sanaz
 Notes: matchhome_team,matchtournament,matchevent

@@ -98,8 +98,9 @@ The project answers the following questions:
 | 21 | In market_name=full_time, is there a significant difference between the initial odds of winners and losers? |
 | 22 | Which tournament is the most competitive one ,based on the percentage of matches which finish in the final set? |
 | 23 | Which tournament had the highest upset(wonder) rate? |
-| 24 |  |
-| 25 |  |
+| 24 | Does winning the first set increase the chances of winning the entire match? |
+| 25 | Do right-handed players perform better on grass courts compared to left-handed players? |
+| 26 | How does the average weight of winning players compare to that of losing players across different gender? |
 ---
 
 # Data Cleaning
@@ -128,16 +129,19 @@ git clone <repository-url>
 pip install -r requirements.txt
 ```
 
-3. There are three methods to run the code. For Q[4,6,7,13,16,19,22,23], follow the instruction below:
+3. There are two methods to run the code.
+
+For Q[4,6,7,13,16,19,22,23], follow the instruction below:
    A. First, you need to put all 60 zip files in a folder, copy and paste its path in `code/ReadFileMethodOne/analysis.ipynb` as the path in the first cell
-   Then, run each cell one by one to create tables in the folder. Next, in each question, paste the path in the first cell and run the notebooks inside `questions/answers/`.
-   
-   B. 
+   B. Then, run each cell one by one to create tables in the folder. Next, in each question, paste the path in the first cell and run the notebooks inside `questions/answers/`.
 
 
-   C.
-
-
+For Q[1,2,3,11,12,17,19,20,21], follow the instructions below:
+   A. Go to the `code/ReadFileMethodTwo` directory.
+   First, use `unzip_helper.py` to unzip all the zip files. Make sure to provide the correct path to the folder containing the zip files.
+   B. After extracting the files, copy `build_tennis_db`.py into the directory where the unzipped files are located, and then run it. This script will build the DuckDB database from the extracted parquet files.
+   C. Once the script finishes, your database will be ready to use.
+   D. For the question files listed above, make sure to update the database path in each notebook before running the cells.
 
 ---
 
