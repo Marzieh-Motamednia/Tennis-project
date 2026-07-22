@@ -1,13 +1,3 @@
---------------------
-قبل از نوشتن، لطفا به این قالب توجه کنید
-[Q1]
-Question: [متن سوال به انگلیسی. می‌تونید بعدا اضافه کنید]
-Persian: [صورت سوال به فارسی]
-Status: ❌
-Responsible: [طراح سوال]
-Notes: [توضیح درباره سوال]
---------------------
-
 [Q18]
 Question: Which match was the most predictable based on votes?
 Persian: کدام مسابقه را میتوان بر اساس رای کاربران، قابل پیش بینی ترین مسابقه دانست؟
@@ -18,8 +8,8 @@ Notes: از 2 جدول مربوط با رای ها و اطلاعات بازی ا
 --------------------
 
 [Q19]
-Question: What is the average weight of the players?
-Persian: میانگین وزن بازیکنان چقدر است؟
+Question: What is the average BMI of the players?
+Persian: میانگین شاخص BMI بازیکنان چقدر است؟
 Status: ✅
 Responsible: Marzieh
 Notes: -
@@ -36,8 +26,8 @@ Notes: -
 --------------------
 
 [Q21]
-Question: In market_name=full_time, is there a significant difference between the initial odds of winners and losers?
-Persian: در market_name=full_time، آیا ضریب اولیه‌ی برنده‌ها با بازنده‌ها فرق معناداری دارد؟
+Question: What are the descriptive differences between the initial odds of winners and losers in market_name=full_time?
+Persian: ضریب اولیه برنده ها با بازنده‌ها در در market_name=full_time از لحاظ توصیفی چه تفاوت‌هایی با یکدیگر دارند؟
 Status: ✅
 Responsible: Marzieh
 Notes: برای پاسخ به این سوال از جدول odds استفاده می‌کنیم.
@@ -62,14 +52,14 @@ Notes: از جداول MatchEventInfo، MatchHomeTeamInfo و MatchAwayTeamInfo �
 --------------------
 
 [Q24]
-Question:Do right-handed players perform better on grass courts compared to left-handed players?
+Question: Does winning the first set increase the chances of winning the entire match?
 Persian:آیا برنده شدن در ست اول، احتمال برنده شدن در کل مسابقه را افزایش می‌دهد؟
 Status: ✅
 Responsible: Sanaz
 Notes: matchhome_team_score,matchaway_team_score,matchevent
 
 [Q25]
-Question:Do right-handed players perform better on grass courts compared to left-handed players?
+Question: Do right-handed players perform better on grass courts compared to left-handed players?
 Persian:آیا بازیکنان راست‌دست در زمین‌های چمن نسبت به بازیکنان چپ‌دست عملکرد بهتری دارند؟
 Status: ✅
 Responsible: Sanaz

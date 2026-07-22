@@ -2,6 +2,7 @@ import zipfile
 from pathlib import Path
 import os
 
+# Enter the path to the zip folders:
 source_dir = Path(r"") 
 
 extract_dir = source_dir / "extracted_data"
