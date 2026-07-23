@@ -93,7 +93,7 @@ The project answers the following questions:
 | 16 | Highest winning percentage against Top-10 opponents |
 | 17 | Average breaks of serve per match |
 | 18 | Which match was the most predictable based on votes? |
-| 19 | What is the average weight of the players? |
+| 19 | What is the average BMI of the players? |
 | 20 | What percentage of matches do players win when they are in their own country? |
 | 21 | In market_name=full_time, is there a significant difference between the initial odds of winners and losers? |
 | 22 | Which tournament is the most competitive one ,based on the percentage of matches which finish in the final set? |
@@ -101,6 +101,10 @@ The project answers the following questions:
 | 24 | Does winning the first set increase the chances of winning the entire match? |
 | 25 | Do right-handed players perform better on grass courts compared to left-handed players? |
 | 26 | How does the average weight of winning players compare to that of losing players across different gender? |
+---
+## 📄 Project Report
+For a detailed analysis, explanations of the methodologies, and the final results of the questions, please refer to the comprehensive report:
+* **[report-tennis-project.pdf](./report-tennis-project.pdf)**
 ---
 
 # Data Cleaning
@@ -129,19 +133,25 @@ git clone <repository-url>
 pip install -r requirements.txt
 ```
 
-3. There are two methods to run the code.
+3. There are different methods to set up the data and run the notebooks, depending on the questions you are exploring.
 
-For Q[4,6,7,13,16,19,22,23], follow the instruction below:
-   A. First, you need to put all 60 zip files in a folder, copy and paste its path in `code/ReadFileMethodOne/analysis.ipynb` as the path in the first cell
-   B. Then, run each cell one by one to create tables in the folder. Next, in each question, paste the path in the first cell and run the notebooks inside `questions/answers/`.
+### 🔹 Method 1: For Questions Q[4, 6, 7, 13, 16, 19, 22, 23]
+1. Collect all 60 zip files of the dataset and place them in a single folder.
+2. Open the notebook `code/ReadFileMethodOne/analysis.ipynb`.
+3. Copy and paste the path of your zip folder into the first cell of the notebook.
+4. Run the cells sequentially to extract the files and build the required tables in that directory.
+5. For each specific question, open the corresponding notebook inside `questions/answers/`, paste the path in the first cell, and run the cells.
 
+### 🔹 Method 2: For Questions Q[1, 2, 3, 11, 12, 17, 19, 20, 21]
+1. Navigate to the `code/ReadFileMethodTwo` directory.
+2. Run `unzip_helper.py` (providing the correct path to your zip files) to extract all dataset files.
+3. Copy `build_tennis_db.py` to the folder where the unzipped files are located, and run it. This script will consolidate the Parquet files and build the DuckDB database (adding the `snapshot_date` partition column).
+4. Once the database is built, you can run the notebooks for the questions listed above. **Note:** Make sure to update the database path in the first cell of each notebook before execution.
 
-For Q[1,2,3,11,12,17,19,20,21], follow the instructions below:
-   A. Go to the `code/ReadFileMethodTwo` directory.
-   First, use `unzip_helper.py` to unzip all the zip files. Make sure to provide the correct path to the folder containing the zip files.
-   B. After extracting the files, copy `build_tennis_db`.py into the directory where the unzipped files are located, and then run it. This script will build the DuckDB database from the extracted parquet files.
-   C. Once the script finishes, your database will be ready to use.
-   D. For the question files listed above, make sure to update the database path in each notebook before running the cells.
+### 🔹 Method 3: For Questions Q[5, 8, 9, 10, 14, 15, 24, 25, 26]
+1. Locate the folder where you have already unzipped the dataset files.
+2. For the questions listed above, open the respective notebook inside the questions directory.
+3. Simply update the path to point directly to your unzipped files directory in the first cell of the notebook, and you are ready to run the cells.
 
 ---
 
